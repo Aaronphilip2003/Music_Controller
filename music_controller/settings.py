@@ -56,7 +56,7 @@ ROOT_URLCONF = "music_controller.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": ['D:/house_party/music_controller/frontend/templates'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
