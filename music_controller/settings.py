@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "api.apps.ApiConfig",
     "rest_framework",
+    "frontend.apps.FrontendConfig",
 ]
 
 MIDDLEWARE = [
@@ -56,7 +57,7 @@ ROOT_URLCONF = "music_controller.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": ['D:/house_party/music_controller/frontend/templates'],
+        "DIRS": ["D:/house_party/music_controller/frontend/templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
